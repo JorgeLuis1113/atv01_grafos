@@ -1,4 +1,4 @@
-#Transforma o código em scritp a ser rodado no prompt de comando
+#Código será rodado como script no prompt de comando
 #Sendo o primeiro argumento o nome do script (main.py) e o segundo o nome da instância
 import sys
 nome_arquivo = sys.argv[1]

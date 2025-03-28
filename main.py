@@ -3,6 +3,7 @@
 import sys
 import numpy as np
 
+#Carrega a matriz presente na instância e aloca ela em matriz
 def le_instancia(instancia):
     matriz = np.loadtxt(instancia, dtype=int)
     return matriz
@@ -22,7 +23,6 @@ def salva_resultado(instancia, matriz, dimensoes):
 {str(matriz)}
 tem dimensoes {dimensoes}""")
 
-#Carrega a matriz presente na instância e aloca ela em matriz
 if __name__=="__main__":
     nome_arquivo = sys.argv[1]
 
